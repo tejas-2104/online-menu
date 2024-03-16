@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .food-items {
+    margin-bottom: 20px;
+  }
+  
+  .food-items label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #f44336;
+  }
+  
+  .loading {
+    display: none;
+    margin-bottom: 20px;
+  }
+  
+  .order-details {
+    display: none;
+    margin-top: 30px;
+  }
+  
+  #foodImageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #foodImageContainer img {
+    margin: 10px;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  #orderId {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #777;
+  }
+  
